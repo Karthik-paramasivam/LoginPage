@@ -33,9 +33,9 @@ export default function Login() {
           <div
             className="col-6 pt-5 pb-5 animated-left-section"
             style={{
-              borderRadius: "0px 0px 560px 0px",
+              borderRadius: "0px 0px 85% 0px",
               backgroundColor: "#0004ff91",
-              height: "88.9vh",
+              height: "87vh",
             }}
           >
             <div className="mt-5 pt-3">
