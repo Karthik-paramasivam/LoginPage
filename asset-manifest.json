@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/LoginPage/static/css/main.d1f4ae92.css",
-    "main.js": "/LoginPage/static/js/main.d3a8b52c.js",
+    "main.js": "/LoginPage/static/js/main.27c7fb5f.js",
     "static/js/453.9ebc09cf.chunk.js": "/LoginPage/static/js/453.9ebc09cf.chunk.js",
-    "static/media/Cryokinesis_logo.png": "/LoginPage/static/media/Cryokinesis_logo.9ddca7e3b1b701e7de09.png",
     "static/media/logo.svg": "/LoginPage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/LoginPage/index.html",
     "main.d1f4ae92.css.map": "/LoginPage/static/css/main.d1f4ae92.css.map",
-    "main.d3a8b52c.js.map": "/LoginPage/static/js/main.d3a8b52c.js.map",
+    "main.27c7fb5f.js.map": "/LoginPage/static/js/main.27c7fb5f.js.map",
     "453.9ebc09cf.chunk.js.map": "/LoginPage/static/js/453.9ebc09cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1f4ae92.css",
-    "static/js/main.d3a8b52c.js"
+    "static/js/main.27c7fb5f.js"
   ]
 }
