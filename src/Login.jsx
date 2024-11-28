@@ -16,10 +16,10 @@ export default function Login() {
                 src={Cryokinesis_logo}
                 alt="Cryokinesis_logo"
                 className="img-fluid bg-white border rounded-2 p-2"
-                style={{ width: "6%" }}
+                style={{ width: "5%" }}
               />
-              <span className="mt-2">
-                <span className="fs-2 text-white ms-3">
+              <span className="mt-3">
+                <span className="fs-2 text-white ms-3 ">
                   Employee Login Portal
                 </span>
               </span>
