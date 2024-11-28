@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Cryokinesis_logo from "./Images/Cryokinesis_logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
+import "./App.css"; // Import the CSS file for animations
 
 export default function Login() {
   return (
@@ -28,8 +29,9 @@ export default function Login() {
       </div>
       <div className="container-fluid">
         <div className="row">
+          {/* Left Section */}
           <div
-            className="col-6 pt-5 pb-5"
+            className="col-6 pt-5 pb-5 animated-left-section"
             style={{
               borderRadius: "0px 0px 560px 0px",
               backgroundColor: "#0004ff91",
@@ -37,13 +39,13 @@ export default function Login() {
             }}
           >
             <div className="mt-5 pt-3">
-              <h1 className="text-white mt-5 text-center">New Here ?</h1>
-              <p className="text-white mt-3 text-center fw-thin">
+              <h1 className="text-white mt-5 text-center animated-text">New Here ?</h1>
+              <p className="text-white mt-3 text-center fw-thin animated-text">
                 Please register by clicking the sign-up button
               </p>
               <div className="text-center">
                 <Button
-                  className="border-2 border-white text-white rounded-5 ps-5 pe-5 pt-2 pb-2 mt-3 fs-6"
+                  className="border-2 border-white text-white rounded-5 ps-5 pe-5 pt-2 pb-2 mt-3 fs-6 animated-button"
                   style={{ backgroundColor: "#FFFFFF00" }}
                 >
                   SIGN UP
@@ -51,7 +53,8 @@ export default function Login() {
               </div>
             </div>
           </div>
-          <div className="col-5 mt-5">
+          {/* Right Section */}
+          <div className="col-5 mt-5 animated-sign-in">
             <div className="mt-5 text-center border border-white">
               <p className="fs-2 fw-bold border border-white mt-5 pt-4">Sign in</p>
               {/* Email Input with User Icon */}
@@ -82,7 +85,7 @@ export default function Login() {
                   />
                 </span>
               </p>
-              <Button className="border-2 border-white text-white rounded-5 bg-primary ps-5 pe-5 pt-2 pb-2 mt-3 fs-6">
+              <Button className=" login-button border-2 border-white text-white rounded-5 bg-primary ps-5 pe-5 pt-2 pb-2 mt-3 fs-6">
                 LOGIN
               </Button>
               <p className="text-primary mt-1">

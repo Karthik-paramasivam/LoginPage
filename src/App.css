@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Animation for sliding in from left */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation for fade-out */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Left Section Animation */
+.animated-left-section {
+  animation: slideInFromLeft 2.5s ease-in-out; /* Increased time to 2.5s */
+}
+
+/* Left Section Text Animation */
+.animated-text {
+  animation: slideInFromLeft 2.5s ease-in-out;
+}
+
+/* Button Animation */
+.animated-button {
+  animation: slideInFromLeft 2.5s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+/* Right Section Animation - Fade In */
+.animated-sign-in {
+  animation: fadeIn 3.5s ease-in-out; /* Increased time to 2.5s */
+}
+
+/* Optional: Apply fade-out for specific scenarios */
+.fade-out {
+  animation: fadeOut 3.5s ease-in-out;
+}
+
+button {
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  border: none; /* Reset default borders if any */
+}
+
+/* SIGN UP Button Hover Effect */
+.animated-button:hover {
+  background-color: #0004ff !important; /* Blue background */
+  color: white !important; /* White text color */
+  border: 2px solid #0004ff !important; /* Blue border */
+}
+
+/* LOGIN Button Hover Effect */
+.login-button:hover {
+  background-color: white !important; /* White background */
+  color: #0004ff !important; /* Blue text color */
+  border: 2px solid #0004ff !important; /* Blue border */
+}
+
+
