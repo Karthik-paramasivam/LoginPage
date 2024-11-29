@@ -115,4 +115,46 @@ button {
   border: 2px solid #0004ff !important; /* Blue border */
 }
 
+/* Animation for the entire form */
+.form-container {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-in effect for each form field */
+.form-item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-item:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+
+.form-item:nth-child(even) {
+  animation-delay: 0.6s;
+}
 
